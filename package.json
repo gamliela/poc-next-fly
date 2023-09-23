@@ -6,9 +6,12 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "format": "prettier \"{**/*,*}.{js,ts,jsx,tsx,md,json}\" --write"
   },
   "dependencies": {
+    "@cloudscape-design/components": "^3.0.391",
+    "@cloudscape-design/global-styles": "^1.0.12",
     "@types/node": "20.5.7",
     "@types/react": "18.2.21",
     "@types/react-dom": "18.2.7",
